@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+a{
+    color: #666;
+    text-decoration: none;
+}
+
+#banner{
+    height: 500px;
+    width: 500px;
+    margin: 0;
+    margin-left: 100px;
+    margin-top: 50px;
+    position: relative;
+    overflow: hidden;
+    float: left;
+}
+
+#banner .wrap{
+    height: 500px;
+    width: 2000px;
+    position: absolute;
+    z-index: 1;
+}
+
+#banner .wrap .pic{
+    float: left;
+    width: 500px;
+    height: 500px;
+    display: table-cell;
+}
+
+#banner .wrap .pic img{
+    width: 100%;
+    height: 100%;
+}
+
+#banner .buttons{
+    position: absolute;
+    left: 180px;
+    top: 460px;
+    width: 150px;
+    height: 10px;
+    z-index: 2;
+}
+
+#banner .buttons span {
+    margin-left: 5px;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: white;
+    text-align: center;
+    color:white;
+    cursor: pointer;
+}
+
+#banner .buttons span.on{
+    background-color: blue;
+}
+
+#main{
+    margin: 0;
+    height: 500px;
+    width: 400px;
+    margin-top: 50px;
+    float: left;
+    border: solid;
+    border-width: 1px;
+}
+
+#main .container{
+    width: 90%;
+    height: 90%;
+    margin: 5% 0 0 5%;
+}
+
+#main .container .login_method{
+    width: 100%;
+    height: 10%;
+    margin: 0;
+    border-bottom: solid;
+    border-width: 1px;
+}
+
+#main .container .login_method .account_log{
+    width: 50%;
+    height: 100%;
+    margin: 0;
+    float: left;
+}
+
+#main .container .login_method .phone_log{
+    width: 50%;
+    height: 100%;
+    margin: 0;
+    float: left;
+}
+
+#main .container .login_method span{
+    font-size: 20px;
+    display: inline-block;
+    padding:20px 0 0 50px;
+}
+
+/*#main .container .m-account{*/
+/*    width: 100%;*/
+/*    height: 40%;*/
+/*    margin: 0;*/
+/*    !*background: red;*!*/
+/*}*/
+
+#main .container .m-frame{
+    border-width: 1px;
+    border-style: solid;
+    border-color: #e8e8e8;
+    border-radius: 4px;
+    height: 40px;
+    width: 100%;
+    margin-top: 30px;
+    position: relative;
+}
+
+#main .container  .pre_icon{
+    width: 13%;
+    height: 100%;
+    float: left;
+}
+
+#main .container .pre_icon img{
+    height: 100%;
+    width: 100%;
+}
+
+#main .container .after_icon{
+    width: 87%;
+    height: 100%;
+    float: left;
+}
+
+#main .container .after_icon input{
+    width: 100%;
+    height: 40px;
+    border: none;
+}
+
+#main .container .m-phone .m-frame .after_icon{
+    width: 57%;
+    height: 100%;
+    float: left;
+}
+
+#main .container .m-phone .m-frame .input_tip{
+    width: 30%;
+    height: 100%;
+    float: left;
+    color: #2B6CDB;
+}
+
+#main .container .m-phone .m-frame .input_tip span{
+    margin-top: 10px;
+    display: inline-block;
+}
+
+#main .container .m-phone{
+    width: 100%;
+    height: 40%;
+    margin: 0;
+    /*background: red;*/
+}
+
+#main .container .login{
+    height: 50px;
+    width: 100%;
+}
+
+#main .container .login .login_icon{
+    border-width: 1px;
+    border-style: solid;
+    border-color: #e8e8e8;
+    border-radius: 4px;
+    height: 50px;
+    width: 100%;
+    background-color: #2E64FE;
+    font-size: 20px;
+}
+
+#main .container .register{
+    height: 30px;
+    width: 100%;
+}
+
+#main .container .register .register_icon{
+    height: 10px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+#main .container .register .register_icon a{
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 26px;
+    color: #0c4af9;
+}

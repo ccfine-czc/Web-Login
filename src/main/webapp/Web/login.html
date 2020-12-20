@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>身份认证</title>
+	<meta charset="UTF-8">
+	<link rel="shortcut icon" type="image/png" href="img/logo.png">
+	<link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+<form action="http://localhost:8080/demo_war_exploded/login-servlet" method="post">
+<div id="banner">
+	<div class="wrap" style="left: 0px">
+		<div class="pic">
+			<img src="img/banner1.jpg" alt="">
+		</div>
+		<div class="pic">
+			<img src="img/banner2.jpg" alt="">
+		</div>
+		<div class="pic">
+			<img src="img/banner3.jpg" alt="">
+		</div>
+		<div class="pic">
+			<img src="img/banner4.jpg" alt="">
+		</div>
+	</div>
+	<div class="buttons">
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+	</div>
+</div>
+
+<div id="main">
+	<div class="container">
+		<div class="login_method">
+			<div class="account_log" >
+					<span>
+						<a href="login.html" style="color:#0c4af9;">
+							账号登录
+						</a>
+					</span>
+			</div>
+			<div class="phone_log" style="cursor: pointer;">
+				<span>
+					<a href="phoneLogin.html">
+						手机登录
+					</a>
+				</span>
+			</div>
+		</div>
+		<div class="m-account">
+			<div class="m-frame">
+				<div class="pre_icon"><img src="img/user1.png"></div>
+				<div class="after_icon">
+					<input type="text" id="mAccount" value="" name="username" placeholder="请输入账号">
+				</div>
+			</div>
+			<div class="m-frame">
+				<div class="pre_icon"><img src="img/pass1.png"></div>
+				<div class="after_icon">
+					<input type="password" id="mPassword" value="" name="userpsw" placeholder="请输入密码">
+				</div>
+			</div>
+		</div>
+
+		<div class="login">
+			<input type="submit" value="提交" class="login_icon">
+<!--				<span>提交</span>-->
+			</input>
+		</div>
+		<div class="register">
+			<div class="register_icon">
+					<span>
+						<a href="register.html">注册账号</a>
+					</span>
+			</div>
+		</div>
+	</div>
+</div>
+<script src="js/login.js"></script>
+</form>
+</body>
+</html>

@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+a{
+    color: #666;
+    text-decoration: none;
+}
+
+#main{
+    height: 400px;
+    width: 100%;
+}
+
+#main .container{
+    width: 50%;
+    height: 90%;
+    margin: 5% 0 0 25%;
+}
+
+#main .container .title{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+}
+
+#main .container .input_txt{
+    width: 100%;
+    height: 50px;
+    margin-top: 30px;
+    margin-left: 80px;
+}
+
+#main .container .input_txt .tip{
+    width: 70px;
+    height: 100%;
+    float: left;
+    margin-top: 10px;
+}
+
+#main .container .input_txt .input_icon{
+    width: 400px;
+    height: 100%;
+    float: left;
+}
+
+#main .container .input_txt span{
+    font-family: "Hiragino Sans GB","Microsoft YaHei",Arial-normal,"open sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 20px;
+    line-height: 20px;
+    color: #333;
+    margin-top: 10px;
+}
+
+#main .container .input_txt input{
+    border-width: 1px;
+    border-style: solid;
+    border-color: #e8e8e8;
+    border-radius: 4px;
+    height: 40px;
+    width: 100%;
+}
+
+#main .container .submit{
+    height: 50px;
+    width: 20%;
+    margin-left: 40%;
+    margin-top: 10%;
+}
+
+#main .container .submit .submit_icon{
+    border-width: 1px;
+    border-style: solid;
+    border-color: #e8e8e8;
+    border-radius: 4px;
+    height: 50px;
+    width: 100%;
+    background-color: #2E64FE;
+    font-size: 20px;
+}
